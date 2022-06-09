@@ -1,0 +1,38 @@
+.btn{
+    background-color: gray;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.active:focus{
+    border: 5px solid red;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+.dropdown-menu{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.dropdown-menu{
+    border: 1px solid black;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.dropdown-item{
+    text-decoration: none;
+    
+}

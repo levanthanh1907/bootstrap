@@ -1,0 +1,58 @@
+.blockOne{
+    margin-bottom: 30px;
+}
+.bg-secondary{
+    background-color: gray;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.blockTwo{
+    margin-bottom: 30px;
+}
+
+.btn.btn-primary{
+    background-color: blue;
+    padding: 10px;
+    /* border: 2px solid gray; */
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.active:focus{
+    border: 5px solid red;
+}
+
+.btn.btn-primary:hover{
+    background-color: yellow;
+}
+
+.position-relative{
+    background-color: blue;
+    padding: 10px;
+    /* border: 2px solid gray; */
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+}
+.position-relative:hover{
+    background-color: yellow;
+}
+
+
+.text-bg-secondary{
+    background-color: gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.position-absolute{
+    position: absolute;
+    top: 0;
+    translate: middle;
+    border-radius: 5px;
+    background-color: red;
+    padding: 5px;
+}

@@ -1,0 +1,36 @@
+.btn-close{
+    border: none;
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.active:focus{
+    border: 3px solid red;
+
+}
+
+#closeTwo img{
+    opacity: 0.5;
+}
+
+.blockThree{
+    display: flex;
+    gap: 10px;
+    /* background-color: black;
+    padding: 10px; */
+}
+
+.btn-close-white:first-child:hover{
+    opacity: 1;
+}
+
+.btn-close-white.active:focus{
+    opacity: 1;
+}
+
+.btn-close-white{
+    opacity: 0.5;
+}
